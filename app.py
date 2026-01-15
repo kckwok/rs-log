@@ -73,7 +73,7 @@ if not show_all_cols:
 else:
     df_to_show = df
 
-st.dataframe(df_to_show.head(show_rows), use_container_width=True)
+st.dataframe(df_to_show.head(show_rows), width='stretch')
 
 # Optional: download
 st.download_button(
