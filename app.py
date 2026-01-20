@@ -62,49 +62,58 @@ except Exception as e:
     st.error(f"Failed to read CSV: {e}")
     st.stop()
 
+# Check if this is a 'stock' file (starts with 'stock')
+is_stock_file = selected_file.name.lower().startswith("stock")
+
 # Optional: basic options
 with st.expander("Display options", expanded=False):
     show_rows = st.slider("Max rows to show", 10, 500, 100)
-    show_all_cols = st.checkbox("Show all columns", value=False)
+    if not is_stock_file:
+        show_all_cols = st.checkbox("Show all columns", value=False)
 
-preferred_columns = [
-    "ticker",
-    "current_up_trend",
-    "current_trend_length",
-    "current_price",
-    "1M",
-    "3M",
-    "6M",
-    "1Y",
-]
-
-performance_column_labels = {
-    "1M": "1M Performance",
-    "3M": "3M Performance",
-    "6M": "6M Performance",
-    "1Y": "1Y Performance",
-}
-
-if show_all_cols:
+# For 'stock' files, display all content without filtering
+if is_stock_file:
     df_to_show = df.copy()
 else:
-    available_columns = [c for c in preferred_columns if c in df.columns]
-    missing_columns = [c for c in preferred_columns if c not in df.columns]
-    if missing_columns:
-        st.info(
-            "Missing columns in file: " + ", ".join(missing_columns)
-        )
-    df_to_show = df[available_columns].copy()
+    # For non-stock files, apply preferred columns logic
+    preferred_columns = [
+        "ticker",
+        "current_up_trend",
+        "current_trend_length",
+        "current_price",
+        "1M",
+        "3M",
+        "6M",
+        "1Y",
+    ]
 
-rename_map = {c: performance_column_labels[c] for c in df_to_show.columns if c in performance_column_labels}
-if rename_map:
-    df_to_show = df_to_show.rename(columns=rename_map)
+    performance_column_labels = {
+        "1M": "1M Performance",
+        "3M": "3M Performance",
+        "6M": "6M Performance",
+        "1Y": "1Y Performance",
+    }
 
-for raw_col, display_col in performance_column_labels.items():
-    if display_col in df_to_show.columns:
-        df_to_show[display_col] = pd.to_numeric(df_to_show[display_col], errors="coerce").map(
-            lambda x: f"{x:.2f}%" if pd.notna(x) else ""
-        )
+    if show_all_cols:
+        df_to_show = df.copy()
+    else:
+        available_columns = [c for c in preferred_columns if c in df.columns]
+        missing_columns = [c for c in preferred_columns if c not in df.columns]
+        if missing_columns:
+            st.info(
+                "Missing columns in file: " + ", ".join(missing_columns)
+            )
+        df_to_show = df[available_columns].copy()
+
+    rename_map = {c: performance_column_labels[c] for c in df_to_show.columns if c in performance_column_labels}
+    if rename_map:
+        df_to_show = df_to_show.rename(columns=rename_map)
+
+    for raw_col, display_col in performance_column_labels.items():
+        if display_col in df_to_show.columns:
+            df_to_show[display_col] = pd.to_numeric(df_to_show[display_col], errors="coerce").map(
+                lambda x: f"{x:.2f}%" if pd.notna(x) else ""
+            )
 
 st.dataframe(df_to_show.head(show_rows), use_container_width=True)
 
