@@ -65,20 +65,53 @@ except Exception as e:
 # Optional: basic options
 with st.expander("Display options", expanded=False):
     show_rows = st.slider("Max rows to show", 10, 500, 100)
-    show_all_cols = st.checkbox("Show all columns", value=True)
+    show_all_cols = st.checkbox("Show all columns", value=False)
 
-if not show_all_cols:
-    # If you ever want to restrict columns later, adjust here
-    df_to_show = df
+preferred_columns = [
+    "ticker",
+    "current_up_trend",
+    "current_trend_length",
+    "current_price",
+    "1M",
+    "3M",
+    "6M",
+    "1Y",
+]
+
+performance_column_labels = {
+    "1M": "1M Performance",
+    "3M": "3M Performance",
+    "6M": "6M Performance",
+    "1Y": "1Y Performance",
+}
+
+if show_all_cols:
+    df_to_show = df.copy()
 else:
-    df_to_show = df
+    available_columns = [c for c in preferred_columns if c in df.columns]
+    missing_columns = [c for c in preferred_columns if c not in df.columns]
+    if missing_columns:
+        st.info(
+            "Missing columns in file: " + ", ".join(missing_columns)
+        )
+    df_to_show = df[available_columns].copy()
 
-st.dataframe(df_to_show.head(show_rows), width='stretch')
+rename_map = {c: performance_column_labels[c] for c in df_to_show.columns if c in performance_column_labels}
+if rename_map:
+    df_to_show = df_to_show.rename(columns=rename_map)
+
+for raw_col, display_col in performance_column_labels.items():
+    if display_col in df_to_show.columns:
+        df_to_show[display_col] = pd.to_numeric(df_to_show[display_col], errors="coerce").map(
+            lambda x: f"{x:.2f}%" if pd.notna(x) else ""
+        )
+
+st.dataframe(df_to_show.head(show_rows), use_container_width=True)
 
 # Optional: download
 st.download_button(
     label="Download selected CSV",
-    data=selected_file.read_bytes(),
+    data=df_to_show.to_csv(index=False).encode("utf-8"),
     file_name=selected_file.name,
     mime="text/csv",
 )
