@@ -9,8 +9,8 @@ import streamlit as st
 OUTPUT_DIR = Path("output")
 DATE_SUFFIX_RE = re.compile(r"(\d{4}-\d{2}-\d{2})\.csv$", re.IGNORECASE)
 
-st.set_page_config(page_title="CSV Viewer", layout="wide")
-st.title("Output CSV Viewer")
+st.set_page_config(page_title="Trender Stock List Viewer", layout="wide")
+st.title("Trender Stock List Viewer")
 
 if not OUTPUT_DIR.exists() or not OUTPUT_DIR.is_dir():
     st.error(f"Folder not found: {OUTPUT_DIR.resolve()}")
