@@ -81,6 +81,8 @@ else:
         "current_up_trend",
         "current_trend_length",
         "current_price",
+        "1D",
+        "1W"
         "1M",
         "3M",
         "6M",
@@ -88,6 +90,8 @@ else:
     ]
 
     performance_column_labels = {
+        "1D": "1D Performance",
+        "1W": "1W Performance",
         "1M": "1M Performance",
         "3M": "3M Performance",
         "6M": "6M Performance",
