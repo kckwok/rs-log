@@ -82,7 +82,7 @@ else:
         "current_trend_length",
         "current_price",
         "1D",
-        "1W"
+        "1W",
         "1M",
         "3M",
         "6M",
