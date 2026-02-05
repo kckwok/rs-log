@@ -214,7 +214,7 @@
 212,DHR,False,False,False,False,False
 213,DRI,False,False,False,False,False
 214,DVA,False,False,False,False,False
-215,DAY,True,False,False,False,False
+215,DAY,False,False,False,False,False
 216,DECK,False,False,False,False,False
 217,DE,False,False,False,False,False
 218,DELL,False,False,False,False,False

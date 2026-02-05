@@ -14,7 +14,7 @@
 12,ADI,False,False,False,False,False
 13,AAPL,False,False,False,False,False
 14,AMAT,False,False,False,False,False
-15,APP,True,False,False,False,False
+15,APP,False,False,False,False,False
 16,ARM,False,False,False,False,False
 17,ASML,False,False,False,False,False
 18,TEAM,False,False,False,False,False
@@ -41,7 +41,7 @@
 39,DXCM,False,False,False,False,False
 40,FANG,False,False,False,False,False
 41,DASH,False,False,False,False,False
-42,EA,True,False,False,False,False
+42,EA,False,False,False,False,False
 43,EXC,False,False,False,False,False
 44,FAST,False,False,False,False,False
 45,FER,False,False,False,False,False
@@ -82,7 +82,7 @@
 80,PYPL,False,False,False,False,False
 81,PDD,False,False,False,False,False
 82,PEP,False,False,False,False,False
-83,QCOM,True,False,False,False,False
+83,QCOM,False,False,False,False,False
 84,REGN,False,False,False,False,False
 85,ROP,False,False,False,False,False
 86,ROST,False,False,False,False,False
@@ -145,7 +145,7 @@
 143,AVB,False,False,False,False,False
 144,AVY,False,False,False,False,False
 145,BALL,False,False,False,False,False
-146,BAC,False,False,False,False,False
+146,BAC,True,False,False,False,False
 147,BAX,False,False,False,False,False
 148,BDX,False,False,False,False,False
 149,BRK.B,False,False,False,False,False
@@ -213,12 +213,12 @@
 211,CVS,False,False,False,False,False
 212,DHR,False,False,False,False,False
 213,DRI,False,False,False,False,False
-214,DVA,False,False,False,False,False
-215,DAY,True,False,False,False,False
-216,DECK,True,False,False,False,False
+214,DVA,True,False,False,False,False
+215,DAY,False,False,False,False,False
+216,DECK,False,False,False,False,False
 217,DE,False,False,False,False,False
 218,DELL,False,False,False,False,False
-219,DAL,False,False,False,False,False
+219,DAL,True,False,False,False,False
 220,DVN,False,False,False,False,False
 221,DLR,False,False,False,False,False
 222,DG,False,False,False,False,False
@@ -293,7 +293,7 @@
 291,HCA,False,False,False,False,False
 292,DOC,False,False,False,False,False
 293,HSIC,False,False,False,False,False
-294,HSY,True,False,False,False,False
+294,HSY,False,False,False,False,False
 295,HPE,False,False,False,False,False
 296,HLT,False,False,False,False,False
 297,HOLX,False,False,False,False,False
@@ -304,7 +304,7 @@
 302,HPQ,False,False,False,False,False
 303,HUBB,False,False,False,False,False
 304,HUM,False,False,False,False,False
-305,HBAN,False,False,False,False,False
+305,HBAN,True,False,False,False,False
 306,HII,False,False,False,False,False
 307,IBM,False,False,False,False,False
 308,IEX,False,False,False,False,False
@@ -326,7 +326,7 @@
 324,J,False,False,False,False,False
 325,JNJ,False,False,False,False,False
 326,JCI,False,False,False,False,False
-327,JPM,False,False,False,False,False
+327,JPM,True,False,False,False,False
 328,KVUE,False,False,False,False,False
 329,KEY,False,False,False,False,False
 330,KEYS,False,False,False,False,False
@@ -382,7 +382,7 @@
 380,NKE,False,False,False,False,False
 381,NI,False,False,False,False,False
 382,NDSN,False,False,False,False,False
-383,NSC,False,False,False,False,False
+383,NSC,True,False,False,False,False
 384,NTRS,False,False,False,False,False
 385,NOC,False,False,False,False,False
 386,NCLH,False,False,False,False,False
@@ -427,7 +427,7 @@
 425,REG,False,False,False,False,False
 426,RF,False,False,False,False,False
 427,RSG,False,False,False,False,False
-428,RMD,True,False,False,False,False
+428,RMD,False,False,False,False,False
 429,RVTY,False,False,False,False,False
 430,HOOD,False,False,False,False,False
 431,ROK,False,False,False,False,False
@@ -466,7 +466,7 @@
 464,TPL,False,False,False,False,False
 465,TXT,False,False,False,False,False
 466,TMO,False,False,False,False,False
-467,TJX,True,False,False,False,False
+467,TJX,False,False,False,False,False
 468,TKO,False,False,False,False,False
 469,TTD,False,False,False,False,False
 470,TSCO,False,False,False,False,False
@@ -481,8 +481,8 @@
 479,UBER,False,False,False,False,False
 480,UDR,False,False,False,False,False
 481,ULTA,False,False,False,False,False
-482,UNP,False,False,False,False,False
-483,UAL,False,False,False,False,False
+482,UNP,True,False,False,False,False
+483,UAL,True,False,False,False,False
 484,UPS,False,False,False,False,False
 485,URI,False,False,False,False,False
 486,UNH,False,False,False,False,False
@@ -491,7 +491,7 @@
 489,VTR,False,False,False,False,False
 490,VLTO,False,False,False,False,False
 491,VRSN,False,False,False,False,False
-492,VZ,True,False,False,False,False
+492,VZ,False,False,False,False,False
 493,VTRS,False,False,False,False,False
 494,VICI,False,False,False,False,False
 495,V,False,False,False,False,False
@@ -510,7 +510,7 @@
 508,WY,False,False,False,False,False
 509,WSM,False,False,False,False,False
 510,WMB,False,False,False,False,False
-511,WTW,False,False,False,False,False
+511,WTW,True,False,False,False,False
 512,WYNN,False,False,False,False,False
 513,XYL,False,False,False,False,False
 514,YUM,False,False,False,False,False
