@@ -113,13 +113,16 @@ else:
     if rename_map:
         df_to_show = df_to_show.rename(columns=rename_map)
 
+    performance_cols = []
     for raw_col, display_col in performance_column_labels.items():
         if display_col in df_to_show.columns:
-            df_to_show[display_col] = pd.to_numeric(df_to_show[display_col], errors="coerce").map(
-                lambda x: f"{x:.2f}%" if pd.notna(x) else ""
-            )
+            df_to_show[display_col] = pd.to_numeric(df_to_show[display_col], errors="coerce")
+            performance_cols.append(display_col)
 
-st.dataframe(df_to_show.head(show_rows), use_container_width=True)
+    for col in performance_cols:
+        column_config[col] = st.column_config.NumberColumn(format="0.00", help="Percent value")
+
+st.dataframe(df_to_show.head(show_rows), use_container_width=True, column_config=column_config)
 
 # Optional: download
 st.download_button(
