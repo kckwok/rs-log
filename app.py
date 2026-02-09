@@ -143,3 +143,37 @@ st.download_button(
     file_name=selected_file.name,
     mime="text/csv",
 )
+
+st.markdown(
+    """
+    <style>
+      .bottom-left-link {
+        position: fixed;
+        left: 1rem;
+        bottom: 1rem;
+        z-index: 9999;
+      }
+      .bottom-left-link a {
+        display: inline-block;
+        padding: 0.45rem 0.75rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        font-weight: 600;
+
+        color: var(--text-color, #262730);
+        background: var(--secondary-background-color, #ffffff);
+        border: 1px solid rgba(49, 51, 63, 0.2);
+      }
+      .bottom-left-link a:hover {
+        border-color: rgba(49, 51, 63, 0.35);
+      }
+    </style>
+
+    <div class="bottom-left-link">
+      <a href="https://topstocksmonitor.streamlit.app/" target="_blank" rel="noopener noreferrer">
+        Top Stocks Monitor
+      </a>
+    </div>
+    """,
+    unsafe_allow_html=True,
+)
