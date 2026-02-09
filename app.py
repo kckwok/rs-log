@@ -118,11 +118,21 @@ else:
     performance_cols = []
     for raw_col, display_col in performance_column_labels.items():
         if display_col in df_to_show.columns:
-            df_to_show[display_col] = pd.to_numeric(df_to_show[display_col], errors="coerce")
+            col_series = df_to_show[display_col]
+            if col_series.dtype == object:
+                col_series = (
+                    col_series.astype(str)
+                    .str.replace("%", "", regex=False)
+                    .str.replace(",", "", regex=False)
+                )
+            df_to_show[display_col] = pd.to_numeric(col_series, errors="coerce")
             performance_cols.append(display_col)
 
     for col in performance_cols:
-        column_config[col] = st.column_config.NumberColumn(format="0.00", help="Percent value")
+        column_config[col] = st.column_config.NumberColumn(
+            format="%.2f",
+            help="Percent value",
+        )
 
 st.dataframe(df_to_show.head(show_rows), use_container_width=True, column_config=column_config)
 
