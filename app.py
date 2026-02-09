@@ -71,6 +71,8 @@ with st.expander("Display options", expanded=False):
     if not is_stock_file:
         show_all_cols = st.checkbox("Show all columns", value=False)
 
+column_config = {}
+
 # For 'stock' files, display all content without filtering
 if is_stock_file:
     df_to_show = df.copy()
