@@ -340,7 +340,7 @@
 338,LW,False,False,False,False,False
 339,LVS,False,False,False,False,False
 340,LDOS,False,False,False,False,False
-341,LEN,False,False,False,False,False
+341,LEN,True,False,False,False,False
 342,LII,False,False,False,False,False
 343,LLY,False,False,False,False,False
 344,LYV,False,False,False,False,False
