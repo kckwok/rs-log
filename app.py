@@ -134,7 +134,7 @@ else:
             help="Percent value",
         )
 
-st.dataframe(df_to_show.head(show_rows), use_container_width=True, column_config=column_config)
+st.dataframe(df_to_show.head(show_rows), width='stretch', column_config=column_config)
 
 # Optional: download
 st.download_button(
