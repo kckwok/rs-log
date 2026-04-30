@@ -1,12 +1,15 @@
 # app.py
 from __future__ import annotations
 
+import json
 import re
 from pathlib import Path
 import pandas as pd
+import plotly.graph_objects as go
 import streamlit as st
 
 OUTPUT_DIR = Path("output")
+CHART_DATA_DIR = OUTPUT_DIR / "chart-data" / "tickers"
 DATE_SUFFIX_RE = re.compile(r"(\d{4}-\d{2}-\d{2})\.csv$", re.IGNORECASE)
 
 st.set_page_config(page_title="Trender Stock List Viewer", layout="wide")
@@ -143,6 +146,88 @@ st.download_button(
     file_name=selected_file.name,
     mime="text/csv",
 )
+
+# --- Price Charts Section ---
+st.divider()
+st.subheader("Price Charts")
+
+# Check if 'ticker' column exists in the dataframe
+if 'ticker' in df.columns:
+    # Get unique tickers from the dataframe
+    tickers = df['ticker'].dropna().unique().tolist()
+    
+    # Filter tickers that have chart data available
+    available_tickers = []
+    for ticker in tickers:
+        ticker_file = CHART_DATA_DIR / f"{ticker}.json"
+        if ticker_file.exists():
+            available_tickers.append(ticker)
+    
+    if available_tickers:
+        st.info(f"Found chart data for {len(available_tickers)} out of {len(tickers)} tickers.")
+        
+        # Allow user to select which tickers to display
+        with st.expander("Chart Display Options", expanded=True):
+            display_limit = st.slider("Number of charts to display", 1, min(20, len(available_tickers)), min(5, len(available_tickers)))
+            selected_tickers = st.multiselect(
+                "Select specific tickers (optional)",
+                options=available_tickers,
+                default=None,
+                help="Leave empty to show the first N tickers based on the slider above"
+            )
+        
+        # Determine which tickers to display
+        if selected_tickers:
+            tickers_to_display = selected_tickers[:display_limit]
+        else:
+            tickers_to_display = available_tickers[:display_limit]
+        
+        # Display charts
+        for ticker in tickers_to_display:
+            ticker_file = CHART_DATA_DIR / f"{ticker}.json"
+            
+            try:
+                with open(ticker_file, 'r') as f:
+                    data = json.load(f)
+                
+                candles = data.get('candles', [])
+                if not candles:
+                    st.warning(f"No candle data found for {ticker}")
+                    continue
+                
+                # Convert candles to dataframe for easier plotting
+                df_candles = pd.DataFrame(candles)
+                df_candles['date'] = pd.to_datetime(df_candles['date'])
+                
+                # Create candlestick chart
+                fig = go.Figure(data=[go.Candlestick(
+                    x=df_candles['date'],
+                    open=df_candles['open'],
+                    high=df_candles['high'],
+                    low=df_candles['low'],
+                    close=df_candles['close'],
+                    name=ticker
+                )])
+                
+                # Update layout
+                fig.update_layout(
+                    title=f"{ticker} Price Chart",
+                    xaxis_title="Date",
+                    yaxis_title="Price ($)",
+                    height=500,
+                    xaxis_rangeslider_visible=False,
+                    hovermode='x unified'
+                )
+                
+                # Display the chart
+                st.plotly_chart(fig, use_container_width=True)
+                
+            except Exception as e:
+                st.error(f"Failed to load chart for {ticker}: {e}")
+    else:
+        st.warning(f"No chart data available for any of the {len(tickers)} tickers in this file.")
+else:
+    st.info("No 'ticker' column found in the selected file. Charts require a 'ticker' column.")
 
 st.markdown(
     """
