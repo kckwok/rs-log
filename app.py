@@ -168,7 +168,12 @@ if 'ticker' in df.columns:
         
         # Allow user to select which tickers to display
         with st.expander("Chart Display Options", expanded=True):
-            display_limit = st.slider("Number of charts to display", 1, min(20, len(available_tickers)), min(5, len(available_tickers)))
+            # Only show slider if there's more than 1 chart
+            if len(available_tickers) > 1:
+                display_limit = st.slider("Number of charts to display", 1, min(20, len(available_tickers)), min(5, len(available_tickers)))
+            else:
+                display_limit = 1
+            
             selected_tickers = st.multiselect(
                 "Select specific tickers (optional)",
                 options=available_tickers,
