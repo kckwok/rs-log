@@ -230,7 +230,7 @@
 228,DHI,False,False,False,False,False
 229,DTE,False,False,False,False,False
 230,DUK,False,False,False,False,False
-231,DD,True,False,False,False,False
+231,DD,False,False,False,False,False
 232,ETN,False,False,False,False,False
 233,EBAY,False,False,False,False,False
 234,SATS,False,False,False,False,False
