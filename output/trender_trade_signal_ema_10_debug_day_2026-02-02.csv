@@ -12,7 +12,7 @@
 10,AEP,False,False,False,False,False
 11,AMGN,False,False,False,False,False
 12,ADI,False,False,False,False,False
-13,AAPL,False,False,False,False,False
+13,AAPL,True,False,False,False,False
 14,AMAT,False,False,False,False,False
 15,APP,False,False,False,False,False
 16,ARM,False,False,False,False,False
@@ -53,7 +53,7 @@
 51,KLAC,False,False,False,False,False
 52,LRCX,False,False,False,False,False
 53,LIN,False,False,False,False,False
-54,LITE,False,False,False,False,False
+54,LITE,True,True,False,False,False
 55,MAR,False,False,False,False,False
 56,MRVL,False,False,False,False,False
 57,MELI,False,False,False,False,False
@@ -140,7 +140,7 @@
 138,AZO,False,False,False,False,False
 139,AVY,False,False,False,False,False
 140,BALL,False,False,False,False,False
-141,BAC,True,False,False,False,False
+141,BAC,False,False,False,False,False
 142,BAX,False,False,False,False,False
 143,BDX,False,False,False,False,False
 144,BRK.B,True,False,False,False,False
@@ -325,7 +325,7 @@
 323,J,False,False,False,False,False
 324,JNJ,False,False,False,False,False
 325,JCI,False,False,False,False,False
-326,JPM,True,False,False,False,False
+326,JPM,False,False,False,False,False
 327,KVUE,False,False,False,False,False
 328,KEY,False,False,False,False,False
 329,KEYS,False,False,False,False,False

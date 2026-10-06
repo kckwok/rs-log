@@ -52,7 +52,7 @@
 50,ISRG,False,False,False,False,False
 51,KDP,False,False,False,False,False
 52,KLAC,False,False,False,False,False
-53,LRCX,True,False,False,False,False
+53,LRCX,False,False,False,False,False
 54,LIN,False,False,False,False,False
 55,LITE,False,False,False,False,False
 56,MAR,False,False,False,False,False
@@ -281,7 +281,7 @@
 279,GEN,False,False,False,False,False
 280,GNRC,False,False,False,False,False
 281,GD,False,False,False,False,False
-282,GIS,True,False,False,False,False
+282,GIS,False,False,False,False,False
 283,GM,False,False,False,False,False
 284,GPC,False,False,False,False,False
 285,GPN,False,False,False,False,False
@@ -365,7 +365,7 @@
 363,MTD,False,False,False,False,False
 364,MGM,False,False,False,False,False
 365,MAA,False,False,False,False,False
-366,MRNA,True,False,False,False,False
+366,MRNA,False,False,False,False,False
 367,MCO,False,False,False,False,False
 368,MS,False,False,False,False,False
 369,MOS,False,False,False,False,False

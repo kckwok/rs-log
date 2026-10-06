@@ -26,7 +26,7 @@
 24,AVGO,False,False,False,False,False
 25,CDNS,False,False,False,False,False
 26,CTAS,False,False,False,False,False
-27,CSCO,True,False,False,False,False
+27,CSCO,False,False,False,False,False
 28,CCEP,False,False,False,False,False
 29,CMCSA,False,False,False,False,False
 30,CEG,False,False,False,False,False
@@ -60,7 +60,7 @@
 58,META,False,False,False,False,False
 59,MCHP,False,False,False,False,False
 60,MU,False,False,False,False,False
-61,MSFT,True,False,False,False,False
+61,MSFT,False,False,False,False,False
 62,MSTR,False,False,False,False,False
 63,MDLZ,False,False,False,False,False
 64,MPWR,False,False,False,False,False
@@ -355,7 +355,7 @@
 353,MAS,False,False,False,False,False
 354,MA,False,False,False,False,False
 355,MKC,False,False,False,False,False
-356,MCD,True,False,False,False,False
+356,MCD,False,False,False,False,False
 357,MCK,False,False,False,False,False
 358,MDT,False,False,False,False,False
 359,MRK,False,False,False,False,False
@@ -433,7 +433,7 @@
 431,SBAC,False,False,False,False,False
 432,SLB,False,False,False,False,False
 433,SRE,False,False,False,False,False
-434,NOW,True,False,False,False,False
+434,NOW,False,False,False,False,False
 435,SHW,False,False,False,False,False
 436,SPG,False,False,False,False,False
 437,SWKS,False,False,False,False,False

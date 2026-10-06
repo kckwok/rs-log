@@ -66,7 +66,7 @@
 64,MDLZ,False,False,False,False,False
 65,MPWR,False,False,False,False,False
 66,MNST,False,False,False,False,False
-67,NBIS,False,False,False,False,False
+67,NBIS,True,False,False,False,False
 68,NFLX,False,False,False,False,False
 69,NVDA,False,False,False,False,False
 70,NXPI,False,False,False,False,False
@@ -391,7 +391,7 @@
 389,OMC,False,False,False,False,False
 390,ON,False,False,False,False,False
 391,OKE,False,False,False,False,False
-392,ORCL,True,False,False,False,False
+392,ORCL,False,False,False,False,False
 393,OTIS,False,False,False,False,False
 394,PKG,False,False,False,False,False
 395,PSKY,False,False,False,False,False

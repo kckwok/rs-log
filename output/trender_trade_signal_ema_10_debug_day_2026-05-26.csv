@@ -22,7 +22,7 @@
 20,ADP,False,False,False,False,False
 21,AXON,False,False,False,False,False
 22,BKR,False,False,False,False,False
-23,BKNG,True,False,False,False,False
+23,BKNG,False,False,False,False,False
 24,AVGO,False,False,False,False,False
 25,CDNS,False,False,False,False,False
 26,CTAS,False,False,False,False,False
@@ -58,7 +58,7 @@
 56,MAR,False,False,False,False,False
 57,MRVL,False,False,False,False,False
 58,MELI,False,False,False,False,False
-59,META,True,False,False,False,False
+59,META,False,False,False,False,False
 60,MCHP,False,False,False,False,False
 61,MU,False,False,False,False,False
 62,MSFT,False,False,False,False,False
@@ -142,7 +142,7 @@
 140,AZO,False,False,False,False,False
 141,AVY,False,False,False,False,False
 142,BALL,False,False,False,False,False
-143,BAC,False,False,False,False,False
+143,BAC,True,False,False,False,False
 144,BAX,False,False,False,False,False
 145,BDX,False,False,False,False,False
 146,BRK.B,False,False,False,False,False
@@ -166,7 +166,7 @@
 164,CPT,False,False,False,False,False
 165,COF,False,False,False,False,False
 166,CAH,False,False,False,False,False
-167,CCL,False,False,False,False,False
+167,CCL,True,False,False,False,False
 168,CARR,False,False,False,False,False
 169,CVNA,False,False,False,False,False
 170,CASY,False,False,False,False,False
@@ -383,7 +383,7 @@
 381,NSC,False,False,False,False,False
 382,NTRS,False,False,False,False,False
 383,NOC,False,False,False,False,False
-384,NCLH,False,False,False,False,False
+384,NCLH,True,False,False,False,False
 385,NRG,True,False,False,False,False
 386,NUE,False,False,False,False,False
 387,NVR,False,False,False,False,False
@@ -478,7 +478,7 @@
 476,ULTA,False,False,False,False,False
 477,UNP,False,False,False,False,False
 478,UAL,False,False,False,False,False
-479,UPS,False,False,False,False,False
+479,UPS,True,False,False,False,False
 480,URI,False,False,False,False,False
 481,UNH,False,False,False,False,False
 482,UHS,False,False,False,False,False

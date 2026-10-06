@@ -348,7 +348,7 @@
 346,LMT,False,False,False,False,False
 347,L,False,False,False,False,False
 348,LOW,False,False,False,False,False
-349,LULU,False,False,False,False,False
+349,LULU,True,False,False,False,False
 350,LYB,False,False,False,False,False
 351,MTB,True,False,False,False,False
 352,MPC,False,False,False,False,False
@@ -493,7 +493,7 @@
 491,VTRS,False,False,False,False,False
 492,VICI,False,False,False,False,False
 493,V,False,False,False,False,False
-494,VST,True,False,False,False,False
+494,VST,False,False,False,False,False
 495,VMRK,False,False,False,False,False
 496,VMC,False,False,False,False,False
 497,WRB,False,False,False,False,False

@@ -67,7 +67,7 @@
 65,MPWR,False,False,False,False,False
 66,MNST,False,False,False,False,False
 67,NBIS,False,False,False,False,False
-68,NFLX,False,False,False,False,False
+68,NFLX,True,False,False,False,False
 69,NVDA,False,False,False,False,False
 70,NXPI,False,False,False,False,False
 71,ORLY,False,False,False,False,False

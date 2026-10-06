@@ -377,7 +377,7 @@
 375,NWSA,False,False,False,False,False
 376,NWS,False,False,False,False,False
 377,NEE,False,False,False,False,False
-378,NKE,True,False,False,False,False
+378,NKE,False,False,False,False,False
 379,NI,False,False,False,False,False
 380,NDSN,False,False,False,False,False
 381,NSC,False,False,False,False,False

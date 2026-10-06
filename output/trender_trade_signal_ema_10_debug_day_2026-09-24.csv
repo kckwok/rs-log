@@ -1,0 +1,2 @@
+,ticker,current_down_trend,previous_up_trend_more_than_50_days,low_in_current_down_trend_higher_than_big_volume_bar,jump_count_more_than_30,volume_in_current_down_trend_less_than_half_of_big_volume_bar
+0,SPY,False,False,False,False,False

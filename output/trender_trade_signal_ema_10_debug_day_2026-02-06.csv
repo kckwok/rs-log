@@ -15,9 +15,9 @@
 13,AAPL,False,False,False,False,False
 14,AMAT,False,False,False,False,False
 15,APP,False,False,False,False,False
-16,ARM,False,False,False,False,False
+16,ARM,True,False,False,False,False
 17,ASML,False,False,False,False,False
-18,ALAB,False,False,False,False,False
+18,ALAB,True,False,False,False,False
 19,ADSK,False,False,False,False,False
 20,ADP,False,False,False,False,False
 21,AXON,False,False,False,False,False
@@ -55,7 +55,7 @@
 53,LIN,False,False,False,False,False
 54,LITE,False,False,False,False,False
 55,MAR,False,False,False,False,False
-56,MRVL,True,False,False,False,False
+56,MRVL,False,False,False,False,False
 57,MELI,False,False,False,False,False
 58,META,False,False,False,False,False
 59,MCHP,False,False,False,False,False
@@ -67,7 +67,7 @@
 65,MNST,False,False,False,False,False
 66,NBIS,False,False,False,False,False
 67,NFLX,False,False,False,False,False
-68,NVDA,True,False,False,False,False
+68,NVDA,False,False,False,False,False
 69,NXPI,False,False,False,False,False
 70,ORLY,False,False,False,False,False
 71,ODFL,False,False,False,False,False

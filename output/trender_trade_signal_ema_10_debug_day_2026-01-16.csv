@@ -201,7 +201,7 @@
 199,ED,False,False,False,False,False
 200,STZ,False,False,False,False,False
 201,COO,False,False,False,False,False
-202,GLW,False,False,False,False,False
+202,GLW,True,False,False,False,False
 203,CPAY,False,False,False,False,False
 204,CTVA,False,False,False,False,False
 205,CSGP,False,False,False,False,False
@@ -448,7 +448,7 @@
 446,STLD,False,False,False,False,False
 447,STE,False,False,False,False,False
 448,SYK,False,False,False,False,False
-449,SMCI,False,False,False,False,False
+449,SMCI,True,False,False,False,False
 450,SYF,False,False,False,False,False
 451,SYY,False,False,False,False,False
 452,TROW,False,False,False,False,False

@@ -51,7 +51,7 @@
 49,ISRG,False,False,False,False,False
 50,KDP,False,False,False,False,False
 51,KLAC,False,False,False,False,False
-52,LRCX,False,False,False,False,False
+52,LRCX,True,False,False,False,False
 53,LIN,False,False,False,False,False
 54,LITE,False,False,False,False,False
 55,MAR,False,False,False,False,False
@@ -66,7 +66,7 @@
 64,MPWR,False,False,False,False,False
 65,MNST,False,False,False,False,False
 66,NBIS,False,False,False,False,False
-67,NFLX,False,False,False,False,False
+67,NFLX,True,False,False,False,False
 68,NVDA,False,False,False,False,False
 69,NXPI,False,False,False,False,False
 70,ORLY,False,False,False,False,False
@@ -151,7 +151,7 @@
 149,BLK,False,False,False,False,False
 150,BX,False,False,False,False,False
 151,XYZ,False,False,False,False,False
-152,BE,False,False,False,False,False
+152,BE,True,False,False,False,False
 153,BNY,False,False,False,False,False
 154,BA,False,False,False,False,False
 155,BSX,False,False,False,False,False
@@ -195,7 +195,7 @@
 193,KO,False,False,False,False,False
 194,CTSH,False,False,False,False,False
 195,COHR,False,False,False,False,False
-196,COIN,False,False,False,False,False
+196,COIN,True,False,False,False,False
 197,CL,False,False,False,False,False
 198,FIX,False,False,False,False,False
 199,COP,False,False,False,False,False

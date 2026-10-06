@@ -193,7 +193,7 @@
 191,CMS,False,False,False,False,False
 192,KO,False,False,False,False,False
 193,CTSH,False,False,False,False,False
-194,COHR,True,True,True,True,True
+194,COHR,False,False,False,False,False
 195,COIN,False,False,False,False,False
 196,CL,False,False,False,False,False
 197,FIX,False,False,False,False,False

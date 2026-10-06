@@ -348,7 +348,7 @@
 346,LMT,False,False,False,False,False
 347,L,False,False,False,False,False
 348,LOW,False,False,False,False,False
-349,LULU,False,False,False,False,False
+349,LULU,True,False,False,False,False
 350,LYB,True,True,False,True,False
 351,MTB,False,False,False,False,False
 352,MPC,False,False,False,False,False
@@ -398,7 +398,7 @@
 396,PH,False,False,False,False,False
 397,PNR,False,False,False,False,False
 398,PFE,False,False,False,False,False
-399,PCG,True,False,False,False,False
+399,PCG,False,False,False,False,False
 400,PM,False,False,False,False,False
 401,PSX,False,False,False,False,False
 402,PNW,False,False,False,False,False

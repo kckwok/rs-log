@@ -152,7 +152,7 @@
 150,BLK,False,False,False,False,False
 151,BX,False,False,False,False,False
 152,XYZ,False,False,False,False,False
-153,BE,False,False,False,False,False
+153,BE,True,False,False,False,False
 154,BNY,False,False,False,False,False
 155,BA,False,False,False,False,False
 156,BSX,False,False,False,False,False
@@ -348,7 +348,7 @@
 346,LMT,False,False,False,False,False
 347,L,False,False,False,False,False
 348,LOW,False,False,False,False,False
-349,LULU,False,False,False,False,False
+349,LULU,True,False,False,False,False
 350,LYB,False,False,False,False,False
 351,MTB,False,False,False,False,False
 352,MPC,False,False,False,False,False

@@ -364,7 +364,7 @@
 362,MTD,False,False,False,False,False
 363,MGM,False,False,False,False,False
 364,MAA,False,False,False,False,False
-365,MRNA,False,False,False,False,False
+365,MRNA,True,False,False,False,False
 366,MCO,False,False,False,False,False
 367,MS,False,False,False,False,False
 368,MOS,False,False,False,False,False

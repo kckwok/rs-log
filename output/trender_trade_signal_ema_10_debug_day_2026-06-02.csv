@@ -54,7 +54,7 @@
 52,KLAC,False,False,False,False,False
 53,LRCX,False,False,False,False,False
 54,LIN,False,False,False,False,False
-55,LITE,False,False,False,False,False
+55,LITE,True,False,False,False,False
 56,MAR,False,False,False,False,False
 57,MRVL,False,False,False,False,False
 58,MELI,False,False,False,False,False
@@ -302,7 +302,7 @@
 300,HST,False,False,False,False,False
 301,HWM,False,False,False,False,False
 302,HPQ,False,False,False,False,False
-303,HUBB,True,False,False,False,False
+303,HUBB,False,False,False,False,False
 304,HUM,False,False,False,False,False
 305,HBAN,False,False,False,False,False
 306,HII,False,False,False,False,False

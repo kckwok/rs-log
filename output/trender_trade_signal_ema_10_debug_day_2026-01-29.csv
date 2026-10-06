@@ -164,7 +164,7 @@
 162,CPT,False,False,False,False,False
 163,COF,False,False,False,False,False
 164,CAH,False,False,False,False,False
-165,CCL,False,False,False,False,False
+165,CCL,True,False,False,False,False
 166,CARR,False,False,False,False,False
 167,CVNA,False,False,False,False,False
 168,CASY,False,False,False,False,False
@@ -381,7 +381,7 @@
 379,NSC,False,False,False,False,False
 380,NTRS,False,False,False,False,False
 381,NOC,False,False,False,False,False
-382,NCLH,False,False,False,False,False
+382,NCLH,True,False,False,False,False
 383,NRG,False,False,False,False,False
 384,NUE,False,False,False,False,False
 385,NVR,False,False,False,False,False
@@ -427,7 +427,7 @@
 425,HOOD,False,False,False,False,False
 426,ROK,False,False,False,False,False
 427,ROL,False,False,False,False,False
-428,RCL,False,False,False,False,False
+428,RCL,True,False,False,False,False
 429,SPGI,False,False,False,False,False
 430,CRM,False,False,False,False,False
 431,SBAC,False,False,False,False,False
@@ -486,7 +486,7 @@
 484,VLTO,False,False,False,False,False
 485,VRSN,False,False,False,False,False
 486,VRSK,False,False,False,False,False
-487,VZ,True,False,False,False,False
+487,VZ,False,False,False,False,False
 488,VRT,False,False,False,False,False
 489,VTRS,False,False,False,False,False
 490,VICI,False,False,False,False,False

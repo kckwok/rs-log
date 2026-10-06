@@ -2,7 +2,7 @@
 0,SPY,False,False,False,False,False
 1,QQQ,False,False,False,False,False
 2,^VIX,False,False,False,False,False
-3,ADBE,False,False,False,False,False
+3,ADBE,True,False,False,False,False
 4,AMD,False,False,False,False,False
 5,ABNB,False,False,False,False,False
 6,ALNY,False,False,False,False,False
@@ -28,7 +28,7 @@
 26,CTAS,False,False,False,False,False
 27,CSCO,False,False,False,False,False
 28,CCEP,False,False,False,False,False
-29,CMCSA,False,False,False,False,False
+29,CMCSA,True,True,False,False,False
 30,CEG,False,False,False,False,False
 31,CPRT,False,False,False,False,False
 32,CRWV,False,False,False,False,False
@@ -357,7 +357,7 @@
 355,MAS,False,False,False,False,False
 356,MA,False,False,False,False,False
 357,MKC,False,False,False,False,False
-358,MCD,True,False,False,False,False
+358,MCD,False,False,False,False,False
 359,MCK,False,False,False,False,False
 360,MDT,False,False,False,False,False
 361,MRK,False,False,False,False,False

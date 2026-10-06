@@ -2,7 +2,7 @@
 0,SPY,False,False,False,False,False
 1,QQQ,False,False,False,False,False
 2,^VIX,False,False,False,False,False
-3,ADBE,False,False,False,False,False
+3,ADBE,True,False,False,False,False
 4,AMD,False,False,False,False,False
 5,ABNB,False,False,False,False,False
 6,ALNY,False,False,False,False,False
@@ -435,7 +435,7 @@
 433,SBAC,False,False,False,False,False
 434,SLB,True,False,False,False,False
 435,SRE,False,False,False,False,False
-436,NOW,False,False,False,False,False
+436,NOW,True,False,False,False,False
 437,SHW,False,False,False,False,False
 438,SPG,False,False,False,False,False
 439,SWKS,False,False,False,False,False

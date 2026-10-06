@@ -2,7 +2,7 @@
 0,SPY,False,False,False,False,False
 1,QQQ,False,False,False,False,False
 2,^VIX,False,False,False,False,False
-3,ADBE,True,False,False,False,False
+3,ADBE,False,False,False,False,False
 4,AMD,False,False,False,False,False
 5,ABNB,False,False,False,False,False
 6,ALNY,False,False,False,False,False
@@ -28,7 +28,7 @@
 26,CTAS,False,False,False,False,False
 27,CSCO,False,False,False,False,False
 28,CCEP,False,False,False,False,False
-29,CMCSA,True,True,False,False,False
+29,CMCSA,False,False,False,False,False
 30,CEG,False,False,False,False,False
 31,CPRT,False,False,False,False,False
 32,CRWV,False,False,False,False,False
@@ -81,18 +81,18 @@
 79,PEP,False,False,False,False,False
 80,QCOM,False,False,False,False,False
 81,REGN,False,False,False,False,False
-82,RKLB,False,False,False,False,False
+82,RKLB,True,False,False,False,False
 83,ROP,False,False,False,False,False
 84,ROST,False,False,False,False,False
 85,SNDK,False,False,False,False,False
 86,STX,False,False,False,False,False
-87,SHOP,False,False,False,False,False
+87,SHOP,True,False,False,False,False
 88,SBUX,False,False,False,False,False
 89,SNPS,False,False,False,False,False
 90,TMUS,False,False,False,False,False
 91,TTWO,False,False,False,False,False
 92,TER,False,False,False,False,False
-93,TSLA,False,False,False,False,False
+93,TSLA,True,False,False,False,False
 94,TXN,False,False,False,False,False
 95,TRI,True,False,False,False,False
 96,VRTX,False,False,False,False,False
@@ -196,7 +196,7 @@
 194,KO,False,False,False,False,False
 195,CTSH,False,False,False,False,False
 196,COHR,False,False,False,False,False
-197,COIN,False,False,False,False,False
+197,COIN,True,False,False,False,False
 198,CL,False,False,False,False,False
 199,FIX,False,False,False,False,False
 200,COP,False,False,False,False,False
@@ -365,7 +365,7 @@
 363,MTD,False,False,False,False,False
 364,MGM,False,False,False,False,False
 365,MAA,False,False,False,False,False
-366,MRNA,False,False,False,False,False
+366,MRNA,True,False,False,False,False
 367,MCO,False,False,False,False,False
 368,MS,False,False,False,False,False
 369,MOS,False,False,False,False,False
@@ -473,7 +473,7 @@
 471,TYL,False,False,False,False,False
 472,TSN,False,False,False,False,False
 473,USB,False,False,False,False,False
-474,UBER,False,False,False,False,False
+474,UBER,True,False,False,False,False
 475,UDR,True,True,False,False,False
 476,ULTA,False,False,False,False,False
 477,UNP,False,False,False,False,False

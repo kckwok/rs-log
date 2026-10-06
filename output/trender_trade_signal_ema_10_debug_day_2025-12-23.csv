@@ -1,5 +1,5 @@
 ,ticker,current_down_trend,previous_up_trend_more_than_50_days,low_in_current_down_trend_higher_than_big_volume_bar,jump_count_more_than_30,volume_in_current_down_trend_less_than_half_of_big_volume_bar
-0,SPY,False,False,False,False,False
+0,SPY,True,False,False,False,False
 1,QQQ,False,False,False,False,False
 2,^VIX,False,False,False,False,False
 3,ADBE,False,False,False,False,False
@@ -8,7 +8,7 @@
 6,ALNY,False,False,False,False,False
 7,GOOGL,False,False,False,False,False
 8,GOOG,False,False,False,False,False
-9,AMZN,False,False,False,False,False
+9,AMZN,True,False,False,False,False
 10,AEP,False,False,False,False,False
 11,AMGN,True,False,False,False,False
 12,ADI,False,False,False,False,False
@@ -67,7 +67,7 @@
 65,MNST,False,False,False,False,False
 66,NBIS,False,False,False,False,False
 67,NFLX,False,False,False,False,False
-68,NVDA,False,False,False,False,False
+68,NVDA,True,False,False,False,False
 69,NXPI,False,False,False,False,False
 70,ORLY,False,False,False,False,False
 71,ODFL,False,False,False,False,False
@@ -325,7 +325,7 @@
 323,J,False,False,False,False,False
 324,JNJ,False,False,False,False,False
 325,JCI,False,False,False,False,False
-326,JPM,True,False,False,False,False
+326,JPM,False,False,False,False,False
 327,KVUE,False,False,False,False,False
 328,KEY,False,False,False,False,False
 329,KEYS,False,False,False,False,False

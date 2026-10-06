@@ -2,7 +2,7 @@
 0,SPY,False,False,False,False,False
 1,QQQ,False,False,False,False,False
 2,^VIX,False,False,False,False,False
-3,ADBE,True,False,False,False,False
+3,ADBE,False,False,False,False,False
 4,AMD,False,False,False,False,False
 5,ABNB,False,False,False,False,False
 6,ALNY,False,False,False,False,False
@@ -72,7 +72,7 @@
 70,ORLY,False,False,False,False,False
 71,ODFL,False,False,False,False,False
 72,PCAR,False,False,False,False,False
-73,PLTR,False,False,False,False,False
+73,PLTR,True,False,False,False,False
 74,PANW,False,False,False,False,False
 75,PAYX,False,False,False,False,False
 76,PYPL,False,False,False,False,False
@@ -434,7 +434,7 @@
 432,SBAC,False,False,False,False,False
 433,SLB,False,False,False,False,False
 434,SRE,False,False,False,False,False
-435,NOW,True,False,False,False,False
+435,NOW,False,False,False,False,False
 436,SHW,False,False,False,False,False
 437,SPG,False,False,False,False,False
 438,SWKS,False,False,False,False,False
@@ -472,7 +472,7 @@
 470,TYL,False,False,False,False,False
 471,TSN,False,False,False,False,False
 472,USB,False,False,False,False,False
-473,UBER,True,False,False,False,False
+473,UBER,False,False,False,False,False
 474,UDR,False,False,False,False,False
 475,ULTA,False,False,False,False,False
 476,UNP,False,False,False,False,False

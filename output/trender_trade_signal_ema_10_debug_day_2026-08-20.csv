@@ -182,7 +182,7 @@
 180,SCHW,False,False,False,False,False
 181,CHTR,False,False,False,False,False
 182,CVX,False,False,False,False,False
-183,CMG,True,False,False,False,False
+183,CMG,False,False,False,False,False
 184,CB,False,False,False,False,False
 185,CHD,False,False,False,False,False
 186,CIEN,False,False,False,False,False
@@ -196,7 +196,7 @@
 194,KO,False,False,False,False,False
 195,CTSH,False,False,False,False,False
 196,COHR,False,False,False,False,False
-197,COIN,False,False,False,False,False
+197,COIN,True,False,False,False,False
 198,CL,False,False,False,False,False
 199,FIX,False,False,False,False,False
 200,COP,False,False,False,False,False
@@ -398,7 +398,7 @@
 396,PH,False,False,False,False,False
 397,PNR,False,False,False,False,False
 398,PFE,False,False,False,False,False
-399,PCG,False,False,False,False,False
+399,PCG,True,False,False,False,False
 400,PM,False,False,False,False,False
 401,PSX,False,False,False,False,False
 402,PNW,False,False,False,False,False
@@ -426,7 +426,7 @@
 424,RSG,False,False,False,False,False
 425,RMD,False,False,False,False,False
 426,RVTY,False,False,False,False,False
-427,HOOD,True,False,False,False,False
+427,HOOD,False,False,False,False,False
 428,ROK,False,False,False,False,False
 429,ROL,False,False,False,False,False
 430,RCL,False,False,False,False,False

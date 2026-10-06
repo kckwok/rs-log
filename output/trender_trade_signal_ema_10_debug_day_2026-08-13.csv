@@ -84,7 +84,7 @@
 82,RKLB,False,False,False,False,False
 83,ROP,False,False,False,False,False
 84,ROST,False,False,False,False,False
-85,SNDK,False,False,False,False,False
+85,SNDK,True,False,False,False,False
 86,STX,True,False,False,False,False
 87,SHOP,False,False,False,False,False
 88,SBUX,False,False,False,False,False

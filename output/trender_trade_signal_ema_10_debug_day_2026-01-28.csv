@@ -1,6 +1,6 @@
 ,ticker,current_down_trend,previous_up_trend_more_than_50_days,low_in_current_down_trend_higher_than_big_volume_bar,jump_count_more_than_30,volume_in_current_down_trend_less_than_half_of_big_volume_bar
 0,SPY,False,False,False,False,False
-1,QQQ,False,False,False,False,False
+1,QQQ,True,False,False,False,False
 2,^VIX,False,False,False,False,False
 3,ADBE,False,False,False,False,False
 4,AMD,False,False,False,False,False
@@ -67,7 +67,7 @@
 65,MNST,False,False,False,False,False
 66,NBIS,False,False,False,False,False
 67,NFLX,False,False,False,False,False
-68,NVDA,False,False,False,False,False
+68,NVDA,True,False,False,False,False
 69,NXPI,False,False,False,False,False
 70,ORLY,False,False,False,False,False
 71,ODFL,False,False,False,False,False
@@ -135,7 +135,7 @@
 133,ANET,False,False,False,False,False
 134,AJG,False,False,False,False,False
 135,AIZ,False,False,False,False,False
-136,T,False,False,False,False,False
+136,T,True,False,False,False,False
 137,ATO,False,False,False,False,False
 138,AZO,False,False,False,False,False
 139,AVY,False,False,False,False,False
@@ -164,7 +164,7 @@
 162,CPT,False,False,False,False,False
 163,COF,False,False,False,False,False
 164,CAH,False,False,False,False,False
-165,CCL,True,False,False,False,False
+165,CCL,False,False,False,False,False
 166,CARR,False,False,False,False,False
 167,CVNA,False,False,False,False,False
 168,CASY,False,False,False,False,False
@@ -381,7 +381,7 @@
 379,NSC,False,False,False,False,False
 380,NTRS,False,False,False,False,False
 381,NOC,False,False,False,False,False
-382,NCLH,True,False,False,False,False
+382,NCLH,False,False,False,False,False
 383,NRG,False,False,False,False,False
 384,NUE,False,False,False,False,False
 385,NVR,False,False,False,False,False
@@ -427,7 +427,7 @@
 425,HOOD,False,False,False,False,False
 426,ROK,False,False,False,False,False
 427,ROL,False,False,False,False,False
-428,RCL,True,False,False,False,False
+428,RCL,False,False,False,False,False
 429,SPGI,False,False,False,False,False
 430,CRM,False,False,False,False,False
 431,SBAC,False,False,False,False,False

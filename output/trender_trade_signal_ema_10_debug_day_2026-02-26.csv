@@ -215,7 +215,7 @@
 213,DVA,False,False,False,False,False
 214,DECK,False,False,False,False,False
 215,DE,False,False,False,False,False
-216,DELL,True,False,False,False,False
+216,DELL,False,False,False,False,False
 217,DAL,False,False,False,False,False
 218,DVN,False,False,False,False,False
 219,DLR,False,False,False,False,False
@@ -393,7 +393,7 @@
 391,ORCL,False,False,False,False,False
 392,OTIS,False,False,False,False,False
 393,PKG,False,False,False,False,False
-394,PSKY,True,False,False,False,False
+394,PSKY,False,False,False,False,False
 395,PH,False,False,False,False,False
 396,PNR,False,False,False,False,False
 397,PFE,False,False,False,False,False

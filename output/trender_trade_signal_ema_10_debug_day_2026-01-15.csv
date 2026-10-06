@@ -3,7 +3,7 @@
 1,QQQ,False,False,False,False,False
 2,^VIX,True,True,False,False,False
 3,ADBE,False,False,False,False,False
-4,AMD,False,False,False,False,False
+4,AMD,True,False,False,False,False
 5,ABNB,False,False,False,False,False
 6,ALNY,False,False,False,False,False
 7,GOOGL,False,False,False,False,False
@@ -201,7 +201,7 @@
 199,ED,False,False,False,False,False
 200,STZ,False,False,False,False,False
 201,COO,False,False,False,False,False
-202,GLW,True,False,False,False,False
+202,GLW,False,False,False,False,False
 203,CPAY,False,False,False,False,False
 204,CTVA,False,False,False,False,False
 205,CSGP,False,False,False,False,False
@@ -448,7 +448,7 @@
 446,STLD,False,False,False,False,False
 447,STE,False,False,False,False,False
 448,SYK,False,False,False,False,False
-449,SMCI,True,False,False,False,False
+449,SMCI,False,False,False,False,False
 450,SYF,False,False,False,False,False
 451,SYY,False,False,False,False,False
 452,TROW,False,False,False,False,False
@@ -491,7 +491,7 @@
 489,VTRS,False,False,False,False,False
 490,VICI,False,False,False,False,False
 491,V,False,False,False,False,False
-492,VST,False,False,False,False,False
+492,VST,True,False,False,False,False
 493,VMRK,False,False,False,False,False
 494,VMC,False,False,False,False,False
 495,WRB,False,False,False,False,False

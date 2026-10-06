@@ -73,7 +73,7 @@
 71,ORLY,False,False,False,False,False
 72,ODFL,False,False,False,False,False
 73,PCAR,False,False,False,False,False
-74,PLTR,False,False,False,False,False
+74,PLTR,True,False,False,False,False
 75,PANW,False,False,False,False,False
 76,PAYX,False,False,False,False,False
 77,PYPL,False,False,False,False,False
@@ -488,7 +488,7 @@
 486,VLTO,False,False,False,False,False
 487,VRSN,False,False,False,False,False
 488,VRSK,False,False,False,False,False
-489,VZ,True,False,False,False,False
+489,VZ,False,False,False,False,False
 490,VRT,False,False,False,False,False
 491,VTRS,False,False,False,False,False
 492,VICI,False,False,False,False,False

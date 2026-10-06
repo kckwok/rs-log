@@ -8,7 +8,7 @@
 6,ALNY,False,False,False,False,False
 7,GOOGL,False,False,False,False,False
 8,GOOG,False,False,False,False,False
-9,AMZN,False,False,False,False,False
+9,AMZN,True,False,False,False,False
 10,AEP,False,False,False,False,False
 11,AMGN,False,False,False,False,False
 12,ADI,False,False,False,False,False
@@ -22,7 +22,7 @@
 20,ADP,False,False,False,False,False
 21,AXON,False,False,False,False,False
 22,BKR,False,False,False,False,False
-23,BKNG,True,False,False,False,False
+23,BKNG,False,False,False,False,False
 24,AVGO,False,False,False,False,False
 25,CDNS,False,False,False,False,False
 26,CTAS,False,False,False,False,False
@@ -60,8 +60,8 @@
 58,META,False,False,False,False,False
 59,MCHP,False,False,False,False,False
 60,MU,False,False,False,False,False
-61,MSFT,True,False,False,False,False
-62,MSTR,False,False,False,False,False
+61,MSFT,False,False,False,False,False
+62,MSTR,True,False,False,False,False
 63,MDLZ,False,False,False,False,False
 64,MPWR,False,False,False,False,False
 65,MNST,False,False,False,False,False
@@ -85,7 +85,7 @@
 83,ROST,False,False,False,False,False
 84,SNDK,False,False,False,False,False
 85,STX,False,False,False,False,False
-86,SHOP,True,False,False,False,False
+86,SHOP,False,False,False,False,False
 87,SBUX,False,False,False,False,False
 88,SNPS,False,False,False,False,False
 89,TMUS,False,False,False,False,False

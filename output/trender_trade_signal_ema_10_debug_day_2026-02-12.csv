@@ -13,7 +13,7 @@
 11,AMGN,False,False,False,False,False
 12,ADI,False,False,False,False,False
 13,AAPL,False,False,False,False,False
-14,AMAT,True,False,False,False,False
+14,AMAT,False,False,False,False,False
 15,APP,False,False,False,False,False
 16,ARM,False,False,False,False,False
 17,ASML,False,False,False,False,False
@@ -65,7 +65,7 @@
 63,MDLZ,False,False,False,False,False
 64,MPWR,False,False,False,False,False
 65,MNST,False,False,False,False,False
-66,NBIS,True,False,False,False,False
+66,NBIS,False,False,False,False,False
 67,NFLX,False,False,False,False,False
 68,NVDA,False,False,False,False,False
 69,NXPI,False,False,False,False,False
@@ -491,7 +491,7 @@
 489,VTRS,False,False,False,False,False
 490,VICI,False,False,False,False,False
 491,V,False,False,False,False,False
-492,VST,False,False,False,False,False
+492,VST,True,False,False,False,False
 493,VMRK,False,False,False,False,False
 494,VMC,False,False,False,False,False
 495,WRB,False,False,False,False,False

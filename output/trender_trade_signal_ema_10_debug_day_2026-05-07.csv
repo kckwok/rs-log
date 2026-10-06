@@ -68,7 +68,7 @@
 66,MNST,False,False,False,False,False
 67,NBIS,False,False,False,False,False
 68,NFLX,False,False,False,False,False
-69,NVDA,True,False,False,False,False
+69,NVDA,False,False,False,False,False
 70,NXPI,False,False,False,False,False
 71,ORLY,False,False,False,False,False
 72,ODFL,False,False,False,False,False
@@ -81,7 +81,7 @@
 79,PEP,False,False,False,False,False
 80,QCOM,False,False,False,False,False
 81,REGN,False,False,False,False,False
-82,RKLB,True,False,False,False,False
+82,RKLB,False,False,False,False,False
 83,ROP,False,False,False,False,False
 84,ROST,False,False,False,False,False
 85,SNDK,False,False,False,False,False
@@ -365,7 +365,7 @@
 363,MTD,False,False,False,False,False
 364,MGM,False,False,False,False,False
 365,MAA,False,False,False,False,False
-366,MRNA,True,False,False,False,False
+366,MRNA,False,False,False,False,False
 367,MCO,False,False,False,False,False
 368,MS,False,False,False,False,False
 369,MOS,False,False,False,False,False

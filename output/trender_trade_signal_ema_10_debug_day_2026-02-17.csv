@@ -364,7 +364,7 @@
 362,MTD,False,False,False,False,False
 363,MGM,False,False,False,False,False
 364,MAA,False,False,False,False,False
-365,MRNA,True,False,False,False,False
+365,MRNA,False,False,False,False,False
 366,MCO,False,False,False,False,False
 367,MS,False,False,False,False,False
 368,MOS,False,False,False,False,False
@@ -376,7 +376,7 @@
 374,NWSA,False,False,False,False,False
 375,NWS,False,False,False,False,False
 376,NEE,False,False,False,False,False
-377,NKE,False,False,False,False,False
+377,NKE,True,False,False,False,False
 378,NI,False,False,False,False,False
 379,NDSN,False,False,False,False,False
 380,NSC,False,False,False,False,False

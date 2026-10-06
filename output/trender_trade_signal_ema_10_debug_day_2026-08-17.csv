@@ -60,7 +60,7 @@
 58,MELI,False,False,False,False,False
 59,META,False,False,False,False,False
 60,MCHP,False,False,False,False,False
-61,MU,False,False,False,False,False
+61,MU,True,False,False,False,False
 62,MSFT,False,False,False,False,False
 63,MSTR,False,False,False,False,False
 64,MDLZ,False,False,False,False,False

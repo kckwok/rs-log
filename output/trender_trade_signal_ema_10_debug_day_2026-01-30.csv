@@ -12,7 +12,7 @@
 10,AEP,False,False,False,False,False
 11,AMGN,False,False,False,False,False
 12,ADI,False,False,False,False,False
-13,AAPL,True,False,False,False,False
+13,AAPL,False,False,False,False,False
 14,AMAT,False,False,False,False,False
 15,APP,False,False,False,False,False
 16,ARM,False,False,False,False,False
@@ -53,7 +53,7 @@
 51,KLAC,False,False,False,False,False
 52,LRCX,False,False,False,False,False
 53,LIN,False,False,False,False,False
-54,LITE,True,True,False,False,False
+54,LITE,False,False,False,False,False
 55,MAR,False,False,False,False,False
 56,MRVL,False,False,False,False,False
 57,MELI,False,False,False,False,False
@@ -486,7 +486,7 @@
 484,VLTO,False,False,False,False,False
 485,VRSN,False,False,False,False,False
 486,VRSK,False,False,False,False,False
-487,VZ,False,False,False,False,False
+487,VZ,True,False,False,False,False
 488,VRT,False,False,False,False,False
 489,VTRS,False,False,False,False,False
 490,VICI,False,False,False,False,False

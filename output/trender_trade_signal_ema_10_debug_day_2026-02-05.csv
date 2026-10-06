@@ -15,9 +15,9 @@
 13,AAPL,False,False,False,False,False
 14,AMAT,False,False,False,False,False
 15,APP,False,False,False,False,False
-16,ARM,True,False,False,False,False
+16,ARM,False,False,False,False,False
 17,ASML,False,False,False,False,False
-18,ALAB,True,False,False,False,False
+18,ALAB,False,False,False,False,False
 19,ADSK,False,False,False,False,False
 20,ADP,False,False,False,False,False
 21,AXON,False,False,False,False,False

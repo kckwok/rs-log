@@ -491,7 +491,7 @@
 489,VTRS,False,False,False,False,False
 490,VICI,False,False,False,False,False
 491,V,False,False,False,False,False
-492,VST,True,False,False,False,False
+492,VST,False,False,False,False,False
 493,VMRK,False,False,False,False,False
 494,VMC,False,False,False,False,False
 495,WRB,False,False,False,False,False

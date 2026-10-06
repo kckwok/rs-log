@@ -302,7 +302,7 @@
 300,HST,False,False,False,False,False
 301,HWM,False,False,False,False,False
 302,HPQ,False,False,False,False,False
-303,HUBB,False,False,False,False,False
+303,HUBB,True,False,False,False,False
 304,HUM,False,False,False,False,False
 305,HBAN,False,False,False,False,False
 306,HII,False,False,False,False,False
@@ -327,7 +327,7 @@
 325,J,False,False,False,False,False
 326,JNJ,False,False,False,False,False
 327,JCI,False,False,False,False,False
-328,JPM,True,False,False,False,False
+328,JPM,False,False,False,False,False
 329,KVUE,False,False,False,False,False
 330,KEY,False,False,False,False,False
 331,KEYS,False,False,False,False,False

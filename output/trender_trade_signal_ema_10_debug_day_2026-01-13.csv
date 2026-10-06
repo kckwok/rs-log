@@ -61,7 +61,7 @@
 59,MCHP,False,False,False,False,False
 60,MU,False,False,False,False,False
 61,MSFT,False,False,False,False,False
-62,MSTR,False,False,False,False,False
+62,MSTR,True,False,False,False,False
 63,MDLZ,False,False,False,False,False
 64,MPWR,False,False,False,False,False
 65,MNST,False,False,False,False,False
@@ -279,7 +279,7 @@
 277,GEN,False,False,False,False,False
 278,GNRC,False,False,False,False,False
 279,GD,False,False,False,False,False
-280,GIS,True,False,False,False,False
+280,GIS,False,False,False,False,False
 281,GM,False,False,False,False,False
 282,GPC,False,False,False,False,False
 283,GPN,False,False,False,False,False

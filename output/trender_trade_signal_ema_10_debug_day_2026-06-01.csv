@@ -31,7 +31,7 @@
 29,CMCSA,False,False,False,False,False
 30,CEG,False,False,False,False,False
 31,CPRT,False,False,False,False,False
-32,CRWV,False,False,False,False,False
+32,CRWV,True,False,False,False,False
 33,COST,False,False,False,False,False
 34,CRWD,False,False,False,False,False
 35,CSX,False,False,False,False,False
@@ -54,7 +54,7 @@
 52,KLAC,False,False,False,False,False
 53,LRCX,False,False,False,False,False
 54,LIN,False,False,False,False,False
-55,LITE,True,False,False,False,False
+55,LITE,False,False,False,False,False
 56,MAR,False,False,False,False,False
 57,MRVL,False,False,False,False,False
 58,MELI,False,False,False,False,False

@@ -325,7 +325,7 @@
 323,J,False,False,False,False,False
 324,JNJ,False,False,False,False,False
 325,JCI,False,False,False,False,False
-326,JPM,False,False,False,False,False
+326,JPM,True,False,False,False,False
 327,KVUE,False,False,False,False,False
 328,KEY,False,False,False,False,False
 329,KEYS,False,False,False,False,False

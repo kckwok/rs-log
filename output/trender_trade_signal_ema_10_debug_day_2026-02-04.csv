@@ -293,7 +293,7 @@
 291,DOC,False,False,False,False,False
 292,HSIC,False,False,False,False,False
 293,HSY,False,False,False,False,False
-294,HPE,False,False,False,False,False
+294,HPE,True,False,False,False,False
 295,HLT,True,False,False,False,False
 296,HD,False,False,False,False,False
 297,HRL,False,False,False,False,False
@@ -396,7 +396,7 @@
 394,PH,False,False,False,False,False
 395,PNR,False,False,False,False,False
 396,PFE,False,False,False,False,False
-397,PCG,False,False,False,False,False
+397,PCG,True,False,False,False,False
 398,PM,False,False,False,False,False
 399,PSX,False,False,False,False,False
 400,PNW,False,False,False,False,False
@@ -476,7 +476,7 @@
 474,ULTA,True,False,False,False,False
 475,UNP,False,False,False,False,False
 476,UAL,False,False,False,False,False
-477,UPS,False,False,False,False,False
+477,UPS,True,True,True,True,True
 478,URI,False,False,False,False,False
 479,UNH,False,False,False,False,False
 480,UHS,False,False,False,False,False

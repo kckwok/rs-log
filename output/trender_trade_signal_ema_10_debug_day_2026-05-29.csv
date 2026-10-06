@@ -2,7 +2,7 @@
 0,SPY,False,False,False,False,False
 1,QQQ,False,False,False,False,False
 2,^VIX,False,False,False,False,False
-3,ADBE,False,False,False,False,False
+3,ADBE,True,False,False,False,False
 4,AMD,False,False,False,False,False
 5,ABNB,False,False,False,False,False
 6,ALNY,False,False,False,False,False
@@ -31,7 +31,7 @@
 29,CMCSA,False,False,False,False,False
 30,CEG,False,False,False,False,False
 31,CPRT,False,False,False,False,False
-32,CRWV,True,False,False,False,False
+32,CRWV,False,False,False,False,False
 33,COST,False,False,False,False,False
 34,CRWD,False,False,False,False,False
 35,CSX,False,False,False,False,False

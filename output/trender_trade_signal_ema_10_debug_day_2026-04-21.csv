@@ -73,7 +73,7 @@
 71,ORLY,False,False,False,False,False
 72,ODFL,False,False,False,False,False
 73,PCAR,False,False,False,False,False
-74,PLTR,True,False,False,False,False
+74,PLTR,False,False,False,False,False
 75,PANW,False,False,False,False,False
 76,PAYX,False,False,False,False,False
 77,PYPL,False,False,False,False,False
@@ -435,7 +435,7 @@
 433,SBAC,False,False,False,False,False
 434,SLB,False,False,False,False,False
 435,SRE,False,False,False,False,False
-436,NOW,False,False,False,False,False
+436,NOW,True,False,False,False,False
 437,SHW,False,False,False,False,False
 438,SPG,False,False,False,False,False
 439,SWKS,False,False,False,False,False

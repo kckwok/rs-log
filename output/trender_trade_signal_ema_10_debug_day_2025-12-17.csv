@@ -279,7 +279,7 @@
 277,GEN,False,False,False,False,False
 278,GNRC,False,False,False,False,False
 279,GD,False,False,False,False,False
-280,GIS,False,False,False,False,False
+280,GIS,True,False,False,False,False
 281,GM,False,False,False,False,False
 282,GPC,False,False,False,False,False
 283,GPN,False,False,False,False,False
@@ -396,7 +396,7 @@
 394,PH,False,False,False,False,False
 395,PNR,False,False,False,False,False
 396,PFE,False,False,False,False,False
-397,PCG,False,False,False,False,False
+397,PCG,True,False,False,False,False
 398,PM,False,False,False,False,False
 399,PSX,False,False,False,False,False
 400,PNW,True,False,False,False,False
