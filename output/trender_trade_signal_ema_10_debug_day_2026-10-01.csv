@@ -204,7 +204,7 @@
 202,COO,False,False,False,False,False
 203,GLW,False,False,False,False,False
 204,CPAY,False,False,False,False,False
-205,CTVA,False,False,False,False,False
+205,CTVA,True,False,False,False,False
 206,CSGP,False,False,False,False,False
 207,CRH,False,False,False,False,False
 208,CCI,False,False,False,False,False
