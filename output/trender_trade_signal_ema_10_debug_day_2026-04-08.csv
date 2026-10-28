@@ -407,8 +407,8 @@
 405,PGR,False,False,False,False,False
 406,PLD,True,False,False,False,False
 407,PRU,False,False,False,False,False
-408,PEG,False,False,False,False,False
-409,PTC,False,False,False,False,False
+408,PTC,False,False,False,False,False
+409,PEG,False,False,False,False,False
 410,PSA,True,False,False,False,False
 411,PHM,False,False,False,False,False
 412,PWR,False,False,False,False,False
